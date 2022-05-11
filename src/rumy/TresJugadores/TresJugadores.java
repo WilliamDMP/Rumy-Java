@@ -56,7 +56,7 @@ public class TresJugadores {
 
             //Matriz para sumar la segunda columna
             for (int i = 0; i < 10; i++) {
-                for (int j = 0; j < 2; j++) {
+                for (int j = 1; j < 2; j++) {
                     sumaColumna2 = sumaColumna2 + matriz[i][j];
                 }
             }
@@ -65,7 +65,7 @@ public class TresJugadores {
 
             //Matriz para sumar la tercera columna
             for (int i = 0; i < 10; i++) {
-                for (int j = 0; j < 3; j++) {
+                for (int j = 2; j < 3; j++) {
                     sumaColumna3 = sumaColumna3 + matriz[i][j];
                 }
             }
