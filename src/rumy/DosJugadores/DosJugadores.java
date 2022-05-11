@@ -54,7 +54,7 @@ int fila, columna, puntuacion, i, j, juego, sumaColumna1, sumaColumna2, contador
         
 	//Matriz para sumar la segunda columna
             for (int i = 0; i < 10; i++) {
-                for (int j = 01; j < 2; j++) {
+                for (int j = 0; j < 2; j++) {
                     sumaColumna2=sumaColumna2+matriz[i][j];
                 }
             }

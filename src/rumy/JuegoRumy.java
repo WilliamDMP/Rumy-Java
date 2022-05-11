@@ -24,9 +24,7 @@ public class JuegoRumy {
         int opcion;
         
         Scanner entrada = new Scanner(System.in); 
-        DosJugadores dosjugadores = new DosJugadores();
-        TresJugadores tresjugadores = new TresJugadores();
-        
+
         System.out.println("Juego Rumy");
         System.out.println(" ");
         System.out.println("El juego se basa en 10 rondas desde 2 cartas hasta 10 en donde");
@@ -43,10 +41,12 @@ public class JuegoRumy {
         
         switch (opcion) {
             case 1: 
+                DosJugadores dosjugadores = new DosJugadores();
                 System.out.println(dosjugadores);
                 break;
             case 2:
-                //System.out.println(tresjugadores);
+                TresJugadores tresjugadores = new TresJugadores();
+                System.out.println(tresjugadores);
                 break;
             default:
                 break;
